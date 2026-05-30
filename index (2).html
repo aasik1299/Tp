@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Super Kings - IPL Legacy | The Pride of Chennai</title>
+    <meta name="description" content="Official Chennai Super Kings IPL Legacy Website. Explore trophies, legendary captains, hall of fame, and historic moments of CSK.">
+    <meta name="keywords" content="Chennai Super Kings, CSK, IPL, MS Dhoni, Cricket, IPL Champions">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="csk-styles.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div id="cursor" class="custom-cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <div class="logo-container">
+                    <div class="logo-lion">🦁</div>
+                    <div class="logo-text">
+                        <span class="logo-csk">CSK</span>
+                        <span class="logo-subtitle">Chennai Super Kings</span>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#legacy">Legacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trophies">Trophies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#captains">Captains</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#halloffame">Hall of Fame</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#" class="btn btn-csk-glow">Join the Roar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div id="hero-canvas-container"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+
+        <div class="hero-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <div class="hero-badge" data-aos="fade-down">
+                            <span class="badge-icon">🏆</span>
+                            <span class="badge-text">5-Time IPL Champions</span>
+                        </div>
+
+                        <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
+                            <span class="title-line">Chennai</span>
+                            <span class="title-line title-gold">Super Kings</span>
+                        </h1>
+
+                        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
+                            The Pride of Chennai · Whistle Podu · Since 2008
+                        </p>
+
+                        <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="5">0</span>
+                                <span class="stat-label">IPL Titles</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="2">0</span>
+                                <span class="stat-label">CLT20 Titles</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="131">0</span>
+                                <span class="stat-label">Total Wins</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="16">0</span>
+                                <span class="stat-label">Seasons Played</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-cta" data-aos="fade-up" data-aos-delay="800">
+                            <a href="#legacy" class="btn btn-csk-primary btn-lg me-3">
+                                <i class="bi bi-play-fill"></i> Explore Legacy
+                            </a>
+                            <a href="#trophies" class="btn btn-csk-outline btn-lg">
+                                <i class="bi bi-trophy-fill"></i> Trophy Cabinet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to Explore</span>
+        </div>
+
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- CSK Legacy Timeline Section -->
+    <section id="legacy" class="legacy-section">
+        <div class="section-bg-pattern"></div>
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Our Journey</span>
+                <h2 class="section-title">CSK <span class="text-gold">Legacy</span> Timeline</h2>
+                <p class="section-desc">A journey of resilience, glory, and unwavering spirit since 2008</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2008</div>
+                        <div class="timeline-icon">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h3>The Beginning</h3>
+                        <p>CSK was founded and acquired by India Cements for $91 million. MS Dhoni was signed as the marquee player for $1.5 million, becoming the face of the franchise.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Inception</span>
+                            <span class="tag">Dhoni Era Begins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2010</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>First IPL Title</h3>
+                        <p>CSK won their maiden IPL title by defeating Mumbai Indians by 22 runs in the final. Suresh Raina was the top scorer with 520 runs.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">Champions</span>
+                            <span class="tag">IPL 2010</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2010</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>CLT20 Champions</h3>
+                        <p>CSK became the first Indian team to win the Champions League T20, defeating Warriors by 8 wickets. Murali Vijay scored 58 in the final.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">CLT20 Champs</span>
+                            <span class="tag">Double Crown</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2011</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>Back-to-Back Champions</h3>
+                        <p>CSK defended their IPL title by beating Royal Challengers Bangalore by 58 runs. Murali Vijay's 95 and Ashwin's 3/16 were standout performances.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">2nd IPL Title</span>
+                            <span class="tag">Dominance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2014</div>
+                        <div class="timeline-icon">
+                            <i class="bi bi-shield-exclamation"></i>
+                        </div>
+                        <h3>The Suspension</h3>
+                        <p>CSK faced a two-year suspension from IPL due to the spot-fixing scandal. The franchise was banned for the 2016 and 2017 seasons.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-danger">Suspended</span>
+                            <span class="tag">Dark Period</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 6 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2018</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>The Grand Return</h3>
+                        <p>CSK returned after suspension and won their third IPL title, defeating Sunrisers Hyderabad by 8 wickets. Watson scored a magnificent 117*.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">3rd IPL Title</span>
+                            <span class="tag">Comeback Kings</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 7 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2021</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>4th IPL Title</h3>
+                        <p>CSK won their fourth IPL title by defeating Kolkata Knight Riders by 27 runs. Faf du Plessis scored 86 in the final at Dubai.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">4th IPL Title</span>
+                            <span class="tag">Ageless</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 8 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-icon trophy-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h3>5th IPL Title - The Record</h3>
+                        <p>CSK equaled MI's record with their 5th IPL title, defeating Gujarat Titans by 5 wickets (DLS method). Jadeja hit the winning runs.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">5th IPL Title</span>
+                            <span class="tag">Record Equaled</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 9 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-card tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <h3>The Legacy Continues</h3>
+                        <p>CSK continues to build on their legendary status with a strong squad, nurturing young talent while maintaining their winning culture.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-gold">Future Ready</span>
+                            <span class="tag">Whistle Podu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IPL Trophy Cabinet Section -->
+    <section id="trophies" class="trophies-section">
+        <div class="trophies-particles" id="trophyParticles"></div>
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Glory Wall</span>
+                <h2 class="section-title">IPL <span class="text-gold">Trophy</span> Cabinet</h2>
+                <p class="section-desc">Five IPL titles, two CLT20 crowns, and countless memories</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Trophy Card 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trophy-card tilt-card-3d">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy1">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-star">★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>IPL 2010</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Final</span>
+                                            <span class="detail-value">CSK 168/5 vs MI 146/9</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Venue</span>
+                                            <span class="detail-value">DY Patil Stadium, Navi Mumbai</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Player of Match</span>
+                                            <span class="detail-value">Suresh Raina</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Orange Cap</span>
+                                            <span class="detail-value">Sachin Tendulkar (MI)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>IPL 2010</h3>
+                            <p class="trophy-season">Season 3</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">Champions</span>
+                                <span class="result-margin">Won by 22 runs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trophy Card 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trophy-card tilt-card-3d">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy2">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-star">★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>IPL 2011</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Final</span>
+                                            <span class="detail-value">CSK 205/5 vs RCB 147/8</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Venue</span>
+                                            <span class="detail-value">MA Chidambaram Stadium, Chennai</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Player of Match</span>
+                                            <span class="detail-value">Murali Vijay</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Orange Cap</span>
+                                            <span class="detail-value">Chris Gayle (RCB)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>IPL 2011</h3>
+                            <p class="trophy-season">Season 4</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">Champions</span>
+                                <span class="result-margin">Won by 58 runs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trophy Card 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trophy-card tilt-card-3d">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy3">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-star">★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>IPL 2018</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Final</span>
+                                            <span class="detail-value">CSK 181/2 vs SRH 178/6</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Venue</span>
+                                            <span class="detail-value">Wankhede Stadium, Mumbai</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Player of Match</span>
+                                            <span class="detail-value">Shane Watson</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Orange Cap</span>
+                                            <span class="detail-value">Kane Williamson (SRH)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>IPL 2018</h3>
+                            <p class="trophy-season">Season 11</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">Champions</span>
+                                <span class="result-margin">Won by 8 wickets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trophy Card 4 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trophy-card tilt-card-3d">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy4">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-star">★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>IPL 2021</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Final</span>
+                                            <span class="detail-value">CSK 192/3 vs KKR 165/9</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Venue</span>
+                                            <span class="detail-value">Dubai International Stadium</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Player of Match</span>
+                                            <span class="detail-value">Faf du Plessis</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Orange Cap</span>
+                                            <span class="detail-value">Ruturaj Gaikwad (CSK)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>IPL 2021</h3>
+                            <p class="trophy-season">Season 14</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">Champions</span>
+                                <span class="result-margin">Won by 27 runs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trophy Card 5 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trophy-card tilt-card-3d">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy5">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-star">★</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>IPL 2023</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Final</span>
+                                            <span class="detail-value">CSK 171/5 vs GT 214/4 (DLS)</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Venue</span>
+                                            <span class="detail-value">Narendra Modi Stadium, Ahmedabad</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Player of Match</span>
+                                            <span class="detail-value">Devon Conway</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Orange Cap</span>
+                                            <span class="detail-value">Shubman Gill (GT)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>IPL 2023</h3>
+                            <p class="trophy-season">Season 16</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">Champions</span>
+                                <span class="result-margin">Won by 5 wkts (DLS)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CLT20 Trophy -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trophy-card tilt-card-3d clt20-card">
+                        <div class="trophy-3d-container">
+                            <div class="trophy-3d" id="trophy6">
+                                <div class="trophy-face trophy-front">
+                                    <div class="trophy-visual">
+                                        <div class="trophy-cup clt20-cup">
+                                            <div class="cup-body"></div>
+                                            <div class="cup-handle left"></div>
+                                            <div class="cup-handle right"></div>
+                                            <div class="cup-base"></div>
+                                            <div class="cup-globe">🌍</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trophy-face trophy-back">
+                                    <div class="trophy-details">
+                                        <h4>CLT20 2010 & 2014</h4>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">2010 Final</span>
+                                            <span class="detail-value">CSK beat Warriors by 8 wkts</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">2014 Final</span>
+                                            <span class="detail-value">CSK beat KKR by 8 wkts</span>
+                                        </div>
+                                        <div class="detail-stat">
+                                            <span class="detail-label">Total CLT20</span>
+                                            <span class="detail-value">2 Titles</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trophy-info">
+                            <h3>CLT20 Titles</h3>
+                            <p class="trophy-season">2010 & 2014</p>
+                            <div class="trophy-result">
+                                <span class="result-badge win">2x Champions</span>
+                                <span class="result-margin">Global Dominance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legendary Captains Section -->
+    <section id="captains" class="captains-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Leadership</span>
+                <h2 class="section-title">Legendary <span class="text-gold">Captains</span></h2>
+                <p class="section-desc">The masterminds who led CSK to glory</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- MS Dhoni -->
+                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="captain-card flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="captain-image">
+                                    <div class="captain-silhouette">
+                                        <div class="silhouette-body"></div>
+                                        <div class="silhouette-head"></div>
+                                        <div class="silhouette-helmet"></div>
+                                    </div>
+                                    <div class="captain-number">7</div>
+                                </div>
+                                <div class="captain-info-front">
+                                    <h3>Mahendra Singh Dhoni</h3>
+                                    <p class="captain-role">Captain · Wicket-Keeper · Finisher</p>
+                                    <div class="captain-years">2008 - Present</div>
+                                    <div class="flip-hint">
+                                        <i class="bi bi-arrow-repeat"></i> Flip for Stats
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="captain-stats">
+                                    <h4>Captaincy Record</h4>
+                                    <div class="stat-grid">
+                                        <div class="stat-box">
+                                            <span class="stat-value">226</span>
+                                            <span class="stat-name">Matches</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">133</span>
+                                            <span class="stat-name">Wins</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">5</span>
+                                            <span class="stat-name">IPL Titles</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">58.8%</span>
+                                            <span class="stat-name">Win Rate</span>
+                                        </div>
+                                    </div>
+                                    <div class="captain-achievements">
+                                        <h5>Key Achievements</h5>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle-fill"></i> Most successful IPL captain</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> 10 IPL finals appearances</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> 2 CLT20 titles as captain</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Longest-serving CSK captain</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ruturaj Gaikwad -->
+                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="captain-card flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="captain-image">
+                                    <div class="captain-silhouette gaikwad">
+                                        <div class="silhouette-body"></div>
+                                        <div class="silhouette-head"></div>
+                                        <div class="silhouette-helmet"></div>
+                                    </div>
+                                    <div class="captain-number">31</div>
+                                </div>
+                                <div class="captain-info-front">
+                                    <h3>Ruturaj Gaikwad</h3>
+                                    <p class="captain-role">Captain · Opening Batsman</p>
+                                    <div class="captain-years">2024 - Present</div>
+                                    <div class="flip-hint">
+                                        <i class="bi bi-arrow-repeat"></i> Flip for Stats
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="captain-stats">
+                                    <h4>CSK Career</h4>
+                                    <div class="stat-grid">
+                                        <div class="stat-box">
+                                            <span class="stat-value">52</span>
+                                            <span class="stat-name">Matches</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">1850</span>
+                                            <span class="stat-name">Runs</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">2</span>
+                                            <span class="stat-name">Orange Caps</span>
+                                        </div>
+                                        <div class="stat-box">
+                                            <span class="stat-value">39.4</span>
+                                            <span class="stat-name">Average</span>
+                                        </div>
+                                    </div>
+                                    <div class="captain-achievements">
+                                        <h5>Key Achievements</h5>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle-fill"></i> IPL 2021 Orange Cap winner</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> IPL 2024 Orange Cap winner</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Youngest CSK captain</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Consistent top-order performer</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Captain Stats Comparison -->
+            <div class="captain-comparison" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="comparison-title">Captaincy Legacy</h3>
+                <div class="comparison-bars">
+                    <div class="comparison-item">
+                        <span class="comp-label">MS Dhoni</span>
+                        <div class="comp-bar-container">
+                            <div class="comp-bar dhoni-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="comp-value">226 Matches</span>
+                    </div>
+                    <div class="comparison-item">
+                        <span class="comp-label">Ruturaj Gaikwad</span>
+                        <div class="comp-bar-container">
+                            <div class="comp-bar gaikwad-bar" style="width: 15%"></div>
+                        </div>
+                        <span class="comp-value">Building Legacy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSK Hall of Fame Section -->
+    <section id="halloffame" class="halloffame-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Immortals</span>
+                <h2 class="section-title">CSK <span class="text-gold">Hall of</span> Fame</h2>
+                <p class="section-desc">The legends who defined the yellow jersey</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Player 1: Suresh Raina -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette raina">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Suresh Raina</h4>
+                            <p class="hof-role">Middle Order Batsman</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2008-2021</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">5528</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">32.51</span>
+                                    <span class="hof-label">Average</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">1</span>
+                                    <span class="hof-label">Title as VC</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">MR. IPL</div>
+                    </div>
+                </div>
+
+                <!-- Player 2: Ravindra Jadeja -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette jadeja">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Ravindra Jadeja</h4>
+                            <p class="hof-role">All-Rounder</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2012-Present</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">2800+</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">150+</span>
+                                    <span class="hof-label">Wickets</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">3</span>
+                                    <span class="hof-label">Titles</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">SIR JADEJA</div>
+                    </div>
+                </div>
+
+                <!-- Player 3: Dwayne Bravo -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette bravo">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Dwayne Bravo</h4>
+                            <p class="hof-role">All-Rounder</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2011-2022</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">1600+</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">140+</span>
+                                    <span class="hof-label">Wickets</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">2</span>
+                                    <span class="hof-label">Purple Caps</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">CHAMPION</div>
+                    </div>
+                </div>
+
+                <!-- Player 4: Ravichandran Ashwin -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette ashwin">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>R. Ashwin</h4>
+                            <p class="hof-role">Off-Spin Bowler</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2009-2015</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">120+</span>
+                                    <span class="hof-label">Wickets</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">6.45</span>
+                                    <span class="hof-label">Economy</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">2</span>
+                                    <span class="hof-label">Titles</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">SPIN WIZARD</div>
+                    </div>
+                </div>
+
+                <!-- Player 5: Faf du Plessis -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette faf">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Faf du Plessis</h4>
+                            <p class="hof-role">Opening Batsman</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2012-2021</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">2932</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">34.90</span>
+                                    <span class="hof-label">Average</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">2</span>
+                                    <span class="hof-label">Titles</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">MR. CONSISTENT</div>
+                    </div>
+                </div>
+
+                <!-- Player 6: Matthew Hayden -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette hayden">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Matthew Hayden</h4>
+                            <p class="hof-role">Opening Batsman</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2008-2010</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">1107</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">36.9</span>
+                                    <span class="hof-label">Average</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">1</span>
+                                    <span class="hof-label">Title</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">MATADOR</div>
+                    </div>
+                </div>
+
+                <!-- Player 7: Michael Hussey -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette hussey">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Michael Hussey</h4>
+                            <p class="hof-role">Top Order Batsman</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2008-2015</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">1768</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">40.18</span>
+                                    <span class="hof-label">Average</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">2</span>
+                                    <span class="hof-label">Titles</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">MR. CRICKET</div>
+                    </div>
+                </div>
+
+                <!-- Player 8: Shane Watson -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="hof-card tilt-card">
+                        <div class="hof-image">
+                            <div class="hof-silhouette watson">
+                                <div class="hof-body"></div>
+                                <div class="hof-head"></div>
+                            </div>
+                            <div class="hof-overlay"></div>
+                        </div>
+                        <div class="hof-info">
+                            <h4>Shane Watson</h4>
+                            <p class="hof-role">All-Rounder</p>
+                            <div class="hof-stats-mini">
+                                <span><i class="bi bi-calendar"></i> 2018-2020</span>
+                            </div>
+                            <div class="hof-numbers">
+                                <div class="hof-stat">
+                                    <span class="hof-num">1252</span>
+                                    <span class="hof-label">Runs</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">32.10</span>
+                                    <span class="hof-label">Average</span>
+                                </div>
+                                <div class="hof-stat">
+                                    <span class="hof-num">1</span>
+                                    <span class="hof-label">Title</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hof-badge">FINAL HERO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Moments</span>
+                <h2 class="section-title">Championship <span class="text-gold">Gallery</span></h2>
+                <p class="section-desc">Relive the most iconic moments in CSK history</p>
+            </div>
+
+            <div class="gallery-carousel-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-carousel" id="galleryCarousel">
+                    <div class="gallery-slide active">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder championship-2010">
+                                <div class="placeholder-icon">🏆</div>
+                                <span>IPL 2010 Champions</span>
+                                <p>CSK lift their first IPL trophy at DY Patil Stadium</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder championship-2011">
+                                <div class="placeholder-icon">🏆</div>
+                                <span>IPL 2011 Champions</span>
+                                <p>Back-to-back titles at Chepauk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder championship-2018">
+                                <div class="placeholder-icon">🏆</div>
+                                <span>IPL 2018 Champions</span>
+                                <p>The grand return after suspension</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder championship-2021">
+                                <div class="placeholder-icon">🏆</div>
+                                <span>IPL 2021 Champions</span>
+                                <p>4th title in Dubai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder championship-2023">
+                                <div class="placeholder-icon">🏆</div>
+                                <span>IPL 2023 Champions</span>
+                                <p>5th title equaling the record</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder chepauk">
+                                <div class="placeholder-icon">🏟️</div>
+                                <span>MA Chidambaram Stadium</span>
+                                <p>The fortress of Chennai</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder dhoni-six">
+                                <div class="placeholder-icon">💥</div>
+                                <span>Iconic Finishes</span>
+                                <p>Dhoni's legendary finishing moments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-image">
+                            <div class="gallery-placeholder yellow-army">
+                                <div class="placeholder-icon">💛</div>
+                                <span>Yellow Army</span>
+                                <p>The most passionate fanbase in IPL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-controls">
+                    <button class="gallery-btn prev" id="galleryPrev">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <div class="gallery-dots" id="galleryDots"></div>
+                    <button class="gallery-btn next" id="galleryNext">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" data-aos="fade-up" data-aos-delay="300">
+                <div class="gallery-grid-item large">
+                    <div class="grid-placeholder final-2010">
+                        <span>2010 Final - First Glory</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item">
+                    <div class="grid-placeholder dhoni-captain">
+                        <span>The Captain</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item">
+                    <div class="grid-placeholder raina-celebration">
+                        <span>Mr. IPL</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item">
+                    <div class="grid-placeholder jadeja-fielding">
+                        <span>Sir Jadeja</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item large">
+                    <div class="grid-placeholder team-celebration">
+                        <span>Team Celebrations</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item">
+                    <div class="grid-placeholder whistle-podu">
+                        <span>Whistle Podu</span>
+                    </div>
+                </div>
+                <div class="gallery-grid-item">
+                    <div class="grid-placeholder chepauk-night">
+                        <span>Chepauk Nights</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="big-stat-card">
+                        <div class="big-stat-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <div class="big-stat-number" data-count="5">0</div>
+                        <div class="big-stat-label">IPL Championships</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="big-stat-card">
+                        <div class="big-stat-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="big-stat-number" data-count="2">0</div>
+                        <div class="big-stat-label">CLT20 Titles</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="big-stat-card">
+                        <div class="big-stat-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <div class="big-stat-number" data-count="10">0</div>
+                        <div class="big-stat-label">Finals Appearances</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="big-stat-card">
+                        <div class="big-stat-icon">
+                            <i class="bi bi-heart-fill"></i>
+                        </div>
+                        <div class="big-stat-number" data-count="16">0</div>
+                        <div class="big-stat-label">IPL Seasons</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="csk-footer">
+        <div class="footer-particles" id="footerParticles"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="footer-lion">🦁</span>
+                            <span class="footer-csk">CSK</span>
+                        </div>
+                        <p class="footer-desc">Chennai Super Kings - The most successful franchise in IPL history. Whistle Podu!</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#legacy">Legacy</a></li>
+                            <li><a href="#trophies">Trophies</a></li>
+                            <li><a href="#captains">Captains</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>More</h5>
+                        <ul>
+                            <li><a href="#halloffame">Hall of Fame</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Schedule</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-newsletter">
+                        <h5>Join the Yellow Army</h5>
+                        <p>Get exclusive CSK updates and behind-the-scenes content.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" class="form-control">
+                            <button type="submit" class="btn btn-csk-glow">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 Chennai Super Kings. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="footer-tagline">💛 Whistle Podu 💛</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="csk-scripts.js"></script>
+</body>
+</html>
